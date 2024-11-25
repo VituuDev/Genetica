@@ -1,3 +1,43 @@
-.div-home {
-  width: 80%;
+#cabecalho {
+  height: 100px;
+  padding: 20px;
+  color: black;
+  clear: both;
+}
+
+#cabecalho ul {
+  position: relative;
+  bottom: 1rem;
+  text-align: center;
+}
+
+#menu {
+  background-color: lightblue;
+  width: 20%;
+  height: 300px;
+  float: left;
+}
+
+#conteudo {
+  background-color: blue;
+  width: 60%;
+  height: 300px;
+  float: left;
+  color: white;
+}
+
+#lado-direito {
+  background-color: lightyellow;
+  width: 20%;
+  height: 300px;
+  float: right;
+}
+
+#rodape {
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  clear: both;
 }
