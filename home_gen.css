@@ -1,14 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&family=Rowdies:wght@300;400;700&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+
 #cabecalho {
-  height: 100px;
-  padding: 20px;
-  color: black;
+  height: auto;
+  padding: 1rem;
+  color: darkgreen;
   clear: both;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
 }
 
 #cabecalho ul {
-  position: relative;
-  bottom: 1rem;
   text-align: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-right: 11rem;
+  font-size: 3vh;
+}
+
+.linha {
+  text-decoration: none;
+  margin-inline: 1rem;
+  font-family: "Rowdies", sans-serif;
+  color: green;
 }
 
 #menu {
