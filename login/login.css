@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans+Warang+Citi&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rowdies:wght@300;400;700&display=swap");
+
+body {
+  background-color: floralwhite;
+}
+
+#cabecalho {
+  height: auto;
+  text-align: center;
+  clear: both;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Rowdies";
+  font-weight: 700;
+  font-style: italic;
+  color: darkgreen;
+}
+
+#conteudo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#rodape {
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  clear: both;
+}
