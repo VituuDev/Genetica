@@ -1,22 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&family=Rowdies:wght@300;400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans+Warang+Citi&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rowdies:wght@300;400;700&display=swap");
 body {
-  background-color: antiquewhite;
+  background-color: floralwhite;
 }
 
 #cabecalho {
   height: auto;
-  padding: 1rem;
   color: darkgreen;
   clear: both;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
 }
 
 h1 {
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
+  padding: 2rem;
+  font-size: 3rem;
 }
 
 #cabecalho ul {
@@ -25,8 +24,8 @@ h1 {
   display: flex;
   justify-content: center;
   position: relative;
-  margin-right: 11rem;
-  font-size: 3vh;
+  bottom: 3.5rem;
+  font-size: 3.5vh;
 }
 
 .linha {
@@ -36,31 +35,41 @@ h1 {
   color: green;
 }
 
-#menu {
-  background-color: lightblue;
-  width: 20%;
-  height: 300px;
-  float: left;
-}
-
 #conteudo {
-  background-color: blue;
-  width: 60%;
-  height: 300px;
-  float: left;
-  color: white;
+  width: 100%;
+  height: auto;
+  color: black;
+  display: flex;
+  justify-content: space-between;
 }
 
-#lado-direito {
-  background-color: lightyellow;
-  width: 20%;
-  height: 300px;
-  float: right;
+.img-vida {
+  width: 25rem;
+  height: 25rem;
+  padding: 2rem;
+  position: relative;
+  bottom: 3.5rem;
+}
+
+.titulo-int {
+  position: relative;
+  bottom: 5rem;
+  font-size: 2.5rem;
+  left: 10rem;
+  font-family: "Forum", serif;
+  font-style: italic;
+  font-weight: 550;
+  white-space: nowrap;
+}
+
+.text-int {
+  position: relative;
+  right: 25rem;
 }
 
 #rodape {
   background-color: white;
-  height: 50px;
+  height: auto;
   text-align: center;
   padding: 20px;
   border-top: 1px solid #ccc;
