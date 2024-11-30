@@ -2,19 +2,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans+Warang+Citi&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rowdies:wght@300;400;700&display=swap");
 body {
-  background-color: floralwhite;
+  background-color:cornsilk ;
 }
 
 #cabecalho {
   height: auto;
-  color: darkgreen;
+  color:forestgreen;
   clear: both;
+  justify-content: space-evenly;
+  display: flex;
 }
 
 h1 {
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 3rem;
 }
 
@@ -22,17 +24,15 @@ h1 {
   text-align: center;
   list-style-type: none;
   display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 3.5rem;
-  font-size: 3.5vh;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .linha {
   text-decoration: none;
   margin-inline: 1rem;
   font-family: "Rowdies", sans-serif;
-  color: green;
+  color: forestgreen;
 }
 
 #conteudo {
