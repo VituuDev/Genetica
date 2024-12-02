@@ -7,25 +7,60 @@
     <link rel="stylesheet" href="login.css" />
   </head>
   <body>
-    <div id="conteudo">
-      <div>
-        <img
-          src="/login/imagens-login/login_img-removebg.png"
-          alt="Corpo humano, celula, átomo"
-        />
-      </div> 
+      <div class="container">
+        <div class="form-image">
+          <img src="./imagens-login/biomedicina.png" alt="">
       </div>
-      <div id="form">
-        <div class="form-header">
-
+      <div class="form">
+        <form action="#">
+          <div class="form-header">
+            <div class="tittle">
+              <h1>Cadastre-se</h1>
+            </div>
+            <div class="login-button">
+              <button><a href="/inicial/home_gen.html">Login</a></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="input-box">
+            <label for="firstname">Primeiro nome</label>
+            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome">
+          </div>
+            <div class="input-box">
+            <label for="lastname">Sobrenome</label>
+            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome">
+        </div>
+          <div class="input-box">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" name="email" placeholder="Digite seu email">
+        </div> 
+          <div class="input-box">
+          <label for="password">Senha</label>
+          <input id="password" type="text" name="password" placeholder="Digite sua senha">
+        </div>
+       </div>     
         
-        <form action="/inicial/home_gen.html">
-          <p>Nome: <input type="text" name="Nome" id="nome" /></p>
-          <p>
-            Sobrenome: <input type="text" name="Sobrenome" id="sobrenome" />
-          </p>
-          <p>Email: <input type="email" name="Email" id="email" /></p>
-          <p><input type="submit" value="Enviar" /></p>
+       <div class="gender-group">
+        <div class="gender-tittle">
+          <h6>Gênero</h6>
+        </div>
+          <div class="gender-input">
+            <input type="radio" id="female" name="gender">
+            <label for="female">Feminino</label>
+          </div>
+          <div class="gender-input">
+            <input type="radio" id="male" name="gender">
+            <label for="male">Masculino</label>
+          </div>
+          <div class="gender-input">
+            <input type="radio" id="others" name="gender">
+            <label for="others">Outros</label>
+          </div>
+          <div class="gender-input">
+            <input type="radio" id="none" name="gender">
+            <label for="none">Prefiro não dizer</label>
+          </div>
+        </div>  
         </form>
       </div>
       </div>
