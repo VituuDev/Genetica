@@ -40,10 +40,10 @@ body {
 .form {
   width: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: rgb(34, 173, 219);
-  padding: 3rem;
 }
 
 .form-header {
@@ -57,15 +57,45 @@ body {
   color: black;
 }
 
-.login-button {
+.form-header button {
   display: flex;
   align-items: center;
 }
 
-.login-button button {
+.form-header button {
   border: none;
   background-color: rgb(56, 189, 233);
   padding: 0.4rem 1rem;
   border-radius: 5px;
   cursor: pointer;
+  margin: 2rem;
+}
+
+.form-header button:hover {
+  font-weight: 500;
+  color: darkblue;
+}
+
+.form-header h1:after {
+  content: '';
+  display: block;
+  width: 5rem;
+  height: 0.4rem;
+  background-color: darkblue;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px ;
+}
+
+.input-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+input-box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
 }
