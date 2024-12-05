@@ -14,7 +14,55 @@
       <img src="./imagens-login/file.png" alt="">
     </div>
     <div class="form">
-      
+      <form action="#">
+        <div class="header">
+          <h1>Cadastre-se</h1>
+          <button><a href="">Entrar</a></button>
+        </div>
+        <div class="input-group">
+          <div class="linha1">
+            <label for="firstname">Primeiro nome</label>
+            <input type="text" class="input" placeholder="Primeiro nome" aria-label="First name" required
+              title="Insira seu primeiro nome.">
+            <label for="lastname">Sobrenome</label>
+            <input type="text" class="input" placeholder="Sobrenome" aria-label="Last name" required
+              title="Insira seu sobrenome.">
+          </div>
+          <div class="linha2">
+            <div>
+              <label for="email">E-mail</label>
+              <input type="email" class="input" placeholder="Digite seu e-mail" aria-label="Email" required>
+            </div>
+            <div>
+              <label for="senha">Senha</label>
+              <input type="password" class="input" placeholder="Digite sua senha" aria-label="Senha" required>
+            </div>
+          </div>
+          <div class="linha3">
+            <div>
+              <h4>Gênero</h4>
+            </div>
+            <div class="gender">
+              <div>
+                <input type="radio" class="btn-check" name="options-base" id="option5" autocomplete="off" checked>
+                <label class="btn" for="option5">Masc</label>
+              </div>
+              <div>
+                <input type="radio" class="btn-check" name="options-base" id="option6" autocomplete="off">
+                <label class="btn" for="option6">Fem</label>
+              </div>
+              <div>
+                <input type="radio" class="btn-check" name="options-base" id="option7" autocomplete="off" disabled>
+                <label class="btn" for="option7">Outros</label>
+              </div>
+              <div>
+                <input type="radio" class="btn-check" name="options-base" id="option8" autocomplete="off">
+                <label class="btn" for="option8">Prefiro não dizer</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </body>
