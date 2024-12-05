@@ -55,12 +55,12 @@ body {
 
 .linha1{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .linha2{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .gender{
@@ -72,28 +72,78 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .header button{
   border: none;
   background-color: rgb(29, 158, 202);
-  padding: 0.4rem 1rem;
+  padding: 1rem 1.5rem;
   border-radius: 9px;
   cursor: pointer;
 }
 
 .header button:hover{
   background-color: rgb(22, 147, 189) ;
+  transform: scale(1.05);
 }
 
 .header h1::after{
   content: '';
   display: block;
-  width: 7rem;
+  width: 8rem;
   height: 0.4rem;
-  background-color: rgb(34, 111, 137);
-  border-radius: 2px;
+  background-color: rgb(22, 147, 189);
+  border-radius: 2.5px;
 }
+
+.header h1{
+  color: #fff;
+  font-size: 3rem;
+}
+
+.linha3{
+   margin-top: 2rem;
+}
+
+.input{
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #666666;  
+}
+
+.input:hover{
+  background-color: #eeeeee75;
+}
+
+.input:focus-visible{
+  outline: 1px solid #666666;
+}
+
+.input label, 
+.gender h4{
+  font-weight: 600;
+  color: #fff;
+}
+
+label{
+  font-family: "Jost", sans-serif;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+h4{
+  color: #fff;
+  font-size: 2rem;
+}
+
+.alinhar_email{
+  margin-left: 4.5rem;
+}
+
 
