@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans+Warang+Citi&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rowdies:wght@300;400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Jost', sans serif;
+  font-family: "Jost", sans serif;
 }
 
 body {
   background-color: antiquewhite;
   width: 100%;
   height: 100vh;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -47,28 +47,28 @@ body {
   padding: 3rem;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3rem;
 }
 
-.linha1{
+.linha1 {
   display: flex;
   justify-content: space-between;
 }
 
-.linha2{
+.linha2 {
   display: flex;
   justify-content: space-between;
 }
 
-.gender{
+.gender {
   display: flex;
   justify-content: space-evenly;
 }
 
-.header a{
+.header a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -77,7 +77,7 @@ body {
   font-size: 1.5rem;
 }
 
-.header button{
+.header button {
   border: none;
   background-color: rgb(29, 158, 202);
   padding: 1rem 1.5rem;
@@ -85,13 +85,13 @@ body {
   cursor: pointer;
 }
 
-.header button:hover{
-  background-color: rgb(22, 147, 189) ;
+.header button:hover {
+  background-color: rgb(22, 147, 189);
   transform: scale(1.05);
 }
 
-.header h1::after{
-  content: '';
+.header h1::after {
+  content: "";
   display: block;
   width: 8rem;
   height: 0.4rem;
@@ -99,51 +99,46 @@ body {
   border-radius: 2.5px;
 }
 
-.header h1{
+.header h1 {
   color: #fff;
   font-size: 3rem;
 }
 
-.linha3{
-   margin-top: 2rem;
+.linha3 {
+  margin-top: 2rem;
 }
 
-.input{
+.input {
   margin: 0.6rem 0;
   padding: 0.8rem 1.2rem;
   border: none;
   border-radius: 10px;
-  box-shadow: 1px 1px 6px #666666;  
+  box-shadow: 1px 1px 6px #666666;
 }
 
-.input:hover{
+.input:hover {
   background-color: #eeeeee75;
 }
 
-.input:focus-visible{
+.input:focus-visible {
   outline: 1px solid #666666;
 }
 
-.input label, 
-.gender h4{
+.input label,
+.gender h4 {
   font-weight: 600;
   color: #fff;
 }
 
-label{
+label {
   font-family: "Jost", sans-serif;
   padding: 1rem;
   color: #fff;
   font-size: 1.2rem;
 }
 
-h4{
+h4 {
   color: #fff;
   font-size: 2rem;
 }
-
-.alinhar_email{
-  margin-left: 4.5rem;
-}
-
 
