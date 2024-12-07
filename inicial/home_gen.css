@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&family=Rowdies:wght@300;400;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans+Warang+Citi&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rowdies:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap");
 body {
   background-color: antiquewhite;
 }
 
 #cabecalho {
+  font-family: "Jost";
   color: rgb(34, 173, 219);
   justify-content: space-between;
   display: flex;
@@ -15,6 +17,58 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  padding: 0.8rem;
+  margin-right: 1rem;
+}
+
+.h1-left {
+  margin-left: 1rem;
+  font-size: 2.5rem;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 0.4rem;
+  background-color: rgb(22, 147, 189);
+  border-radius: 2.5px;
+}
+
+.nav-center {
+  background-color: rgb(34, 173, 219);
+  border-radius: 1rem;
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.nav-right {
+  background-color: rgb(34, 173, 219);
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .dropdown {
@@ -53,4 +107,13 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+#conteudo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.titulo-int {
+  margin-left: 8rem;
+  margin-top: 3rem;
 }
