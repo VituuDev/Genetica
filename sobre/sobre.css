@@ -67,3 +67,10 @@ li {
   font-weight: 600;
   padding: 0.5rem;
 }
+
+.conteudo img {
+  max-width: 100%;
+  height: auto;
+}
+
+

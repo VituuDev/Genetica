@@ -12,16 +12,47 @@
         <h1 class="h1-left">BioCode</h1>
         <div>
           <ul class="nav-center">
-            <li><a href="#">Funcionalidades</a></li>
-            <li><a href="#">Objetivos</a></li>
-            <li><a href="#">Agradecimentos</a></li>
+            <li><a href="#section1" onclick="showAnchorText">Funcionalidades</a></li>
+            <li><a href="#section2" onclick="showAnchorText">Objetivos</a></li>
+            <li><a href="#section3" onclick="showAnchorText">Agradecimentos</a></li>
           </ul>
         </div>
+
         <div>
           <ul class="nav-right">
             <li><a href="/inicial/home_gen.html">Voltar</a></li>
           </ul>
         </div>
+      </div>
+    </div>
+    <div class="conteudo">
+      <div class="img">
+        <img src="./imagens_sobre/bioquimica sobre.webp" alt="" />
+      </div>
+
+      <section id="section1">
+        <h3>Funcionalidades</h3>
+        <p>Através do uso da linguagem de marcação de HTML, das estilizações com CSS e das melhorias com a linguagem JavaScript, o site BioCode pode ser criado.</p>
+    </section>
+    <section id="section2">
+        <h3>Welcome to Section 2</h3>
+    </section>
+    <section id="section3">
+        <h3>Welcome to Section 3</h2>
+    </section>
+
+      <script>
+        function scrollToSection(event) {
+            event.preventDefault(); // Impede a navegação padrão do link
+            
+            const targetId = event.target.getAttribute('href').substring(1); // Obtém o ID da seção
+            const targetElement = document.getElementById(targetId); // Seleciona o elemento
+            
+            // Rola suavemente até a seção
+            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        </script>
+
       </div>
     </div>
   </body>
