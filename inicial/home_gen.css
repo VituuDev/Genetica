@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap");
 body {
   background-color: antiquewhite;
+  color: #666666;
 }
 
 #cabecalho {
@@ -76,19 +77,49 @@ h1::after {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
-.titulo-int {
-  margin-left: 5rem;
-  margin-top: 3rem;
-}
-
-.texto-int {
-  width: 30%;
-  justify-content: left;
-  padding: 1rem;
-  margin-left: 1rem;
+h2 {
   color: #666666;
 }
 
-.texto-int p {
+.texto-int {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  color: #666666;
   text-align: justify;
+}
+
+.titulo-int{
+  margin-top: 5rem;
+}
+
+.texto-int img {
+  max-width: 20rem;
+  height: auto;
+}
+
+.texto2 {
+  text-align: justify;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.texto2 img {
+  max-width: 20rem;
+}
+
+.texto3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.texto3 img {
+  max-width: 30rem;
+  height: auto;
 }
