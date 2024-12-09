@@ -19,7 +19,7 @@ body {
 
 .container {
   width: 80%;
-  height: 80vh;
+  height: 85vh;
   display: flex;
   box-shadow: 1px 1px 3px #666666;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .form-image img {
-  width: 34rem;
+  width: 23rem;
 }
 
 .form {
@@ -44,7 +44,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: rgb(34, 173, 219);
-  padding: 3rem;
+  padding: 1rem;
 }
 
 .header {
@@ -53,14 +53,19 @@ body {
   margin-bottom: 3rem;
 }
 
-.linha1 {
+.linha1, .linha2{
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
-.linha2 {
-  display: flex;
-  justify-content: space-between;
+.alinhar{
+  flex: 1;
+  margin-right: 10px;
+}
+
+.alinhar:last-child{
+  margin-right: 0;
 }
 
 .gender {
@@ -68,19 +73,23 @@ body {
   justify-content: space-evenly;
 }
 
-.header a {
+.genderT{
+  margin-top: 2rem;
+}
+
+.buttonheader a{
   display: flex;
-  align-items: center;
+  align-items:center;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .header button {
   border: none;
   background-color: rgb(29, 158, 202);
-  padding: 1rem 1.5rem;
+  padding: 0.4rem 1rem;
   border-radius: 9px;
   cursor: pointer;
 }
@@ -88,6 +97,11 @@ body {
 .header button:hover {
   background-color: rgb(22, 147, 189);
   transform: scale(1.05);
+}
+
+.botao{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .header h1::after {
@@ -101,18 +115,19 @@ body {
 
 .header h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .linha3 {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .input {
-  margin: 0.6rem 0;
-  padding: 0.8rem 1.2rem;
-  border: none;
+  margin-top: 5px ;
+  padding: 10px;
   border-radius: 10px;
+  width: 100%;
+  border: none;
   box-shadow: 1px 1px 6px #666666;
 }
 
@@ -134,12 +149,12 @@ label {
   font-family: "Jost", sans-serif;
   padding: 1rem;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 0.5rem;
 }
 
 h4 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .input-group.success input{
