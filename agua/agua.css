@@ -1,0 +1,103 @@
+body {
+  background-color: antiquewhite;
+  color: #666666;
+}
+
+ul {
+  list-style: none; /* Remove os pontos */
+  padding: 0; /* Remove o recuo padrão */
+  margin: 0; /* Remove margens padrão */
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 6rem;
+  height: 0.4rem;
+  background-color: rgb(22, 147, 189);
+  border-radius: 2.5px;
+}
+
+h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  color: rgb(34, 173, 219);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  background-color: rgb(34, 173, 219);
+  border-radius: 1rem;
+  font-family: "Jost", sans-serif;
+}
+
+li {
+  padding: 0.8rem;
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.nav-right {
+  background-color: rgb(34, 173, 219);
+  border-radius: 1rem;
+  font-family: "Jost", sans-serif;
+  font-size: 0.8rem;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.conteudo {
+  margin-top: 1rem;
+}
+
+.introducao {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p{
+    text-align: justify;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+ 
+.introducao img{
+    max-width: 27rem;
+    padding: 1rem;
+}
+
+.ligacoes{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+

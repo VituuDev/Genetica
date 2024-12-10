@@ -12,7 +12,7 @@
         <h1 class="h1-left">BioCode</h1>
         <div>
           <ul class="nav-center">
-            <li><a href="#">Água</a></li>
+            <li><a href="/agua/agua.html">Água</a></li>
             <li><a href="#">Sais </a></li>
             <li><a href="#">Vitaminas</a></li>
           </ul>
@@ -84,6 +84,18 @@
       <img src="./imagens-projeto/composto org.png" alt="" />
     </div>
 
-    <div id="rodape">Rodapé</div>
+    <div id="rodape">
+      <form onsubmit="return validateTextarea()">
+        <div class="descricao">
+        <label for="description">Descreva sua experiência:</label>
+        <textarea name="description" id="description" placeholder="Digite sua experiência" required minlength="10" maxlength="60"></textarea>
+      </div>
+        <small id="error-message"></small>
+        <br>
+        <button class="botao" type="submit">Enviar</button>
+      </form>
+
+      <script src="inicial.js"></script>
+    </div>
   </body>
 </html>

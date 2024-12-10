@@ -17,22 +17,22 @@
       <form action="#">
       <div class="header">
         <h1>Cadastre-se</h1>
-          <button class="buttonheader" type="submit">
-            <a href="/inicial/home_gen.html" aria-disabled="false">Entrar</a>
+          <button id="submitButton" class="buttonheader" type="submit">
+            <a href="/inicial/home_gen.html" aria-disa">Entrar</a>
           </button>
         </div>
         <div class="input-group">
           <div class="linha1">
             <div class="alinhar">
               <label for="firstname">Primeiro nome</label>
-              <input id="name" type="text" class="input" placeholder="Primeiro nome" aria-label="First name"
-                title="Insira seu primeiro nome." oninput="nameValidate()"/>
+              <input id="n" type="text" class="input" placeholder="Primeiro nome" onclick="name()"
+                title="Insira seu primeiro nome."/>
 
 
             </div>
             <div class="alinhar">
               <label for="lastname">Sobrenome</label>
-              <input id="lastname" type="text" class="input" placeholder="Sobrenome" aria-label="Last name"
+              <input id="lastname" type="text" class="input" placeholder="Sobrenome" onclick="botao()"
                 title="Insira seu sobrenome." />
 
 
@@ -41,12 +41,12 @@
             <div class="linha2">
               <div class="alinhar">
                 <label for="email">E-mail</label>
-                <input id="email" type="email" class="input" placeholder="Digite seu e-mail" aria-label="Email" />
+                <input id="email" type="email" class="input" placeholder="Digite seu e-mail" onclick="botao()" />
               </div>
                 <div class="alinhar">
                   <label for="senha">Senha</label>
                   <input id="password" type="password" class="input" placeholder="Digite sua senha"
-                    aria-label="Senha" />
+                    onclick="botao()" />
              </div>
             </div>
           </div>

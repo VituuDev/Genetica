@@ -53,18 +53,19 @@ body {
   margin-bottom: 3rem;
 }
 
-.linha1, .linha2{
+.linha1,
+.linha2 {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.alinhar{
+.alinhar {
   flex: 1;
   margin-right: 10px;
 }
 
-.alinhar:last-child{
+.alinhar:last-child {
   margin-right: 0;
 }
 
@@ -73,13 +74,13 @@ body {
   justify-content: space-evenly;
 }
 
-.genderT{
+.genderT {
   margin-top: 2rem;
 }
 
-.buttonheader a{
+.buttonheader a {
   display: flex;
-  align-items:center;
+  align-items: center;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
@@ -99,7 +100,7 @@ body {
   transform: scale(1.05);
 }
 
-.botao{
+.botao {
   display: flex;
   justify-content: space-evenly;
 }
@@ -123,7 +124,7 @@ body {
 }
 
 .input {
-  margin-top: 5px ;
+  margin-top: 5px;
   padding: 10px;
   border-radius: 10px;
   width: 100%;
@@ -157,19 +158,18 @@ h4 {
   font-size: 1.25rem;
 }
 
-.input-group.success input{
+.input-group.success input {
   border: 3px solid #4eca64;
 }
 
-.input-group.error input{
+.input-group.error input {
   border: 3px solid #db5a5a;
 }
 
-.input-group.success i .img-success{
+.input-group.success i .img-success {
   visibility: visible;
 }
 
-.input-group.error i .img-error{
+.input-group.error i .img-error {
   visibility: visible;
 }
-

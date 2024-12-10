@@ -20,6 +20,7 @@ body {
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 ul {
@@ -50,7 +51,7 @@ h1::after {
 .nav-center a {
   text-decoration: none;
   color: #f1f1f1;
-  
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -63,7 +64,7 @@ h1::after {
 .nav-right a {
   text-decoration: none;
   color: #f1f1f1;
-  
+  font-size: 1.5rem;
   font-weight: 500;
   margin-right: 1rem;
 }
@@ -85,7 +86,7 @@ h2 {
   text-align: justify;
 }
 
-.titulo-int{
+.titulo-int {
   margin-top: 5rem;
 }
 
@@ -118,3 +119,78 @@ h2 {
   max-width: 30rem;
   height: auto;
 }
+
+#error-message {
+  color: red;
+}
+
+form {
+  margin-top: 2rem;
+  background-color: rgb(34, 173, 219);
+  border: 1px solid rgb(22, 147, 189);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 80%;
+  box-shadow: 0 0.2rem 0.5rem #666666;
+  margin-left: 5rem;
+}
+
+label {
+  display: block;
+  margin-top: 18px;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  color: #fff;
+  height: 1.8rem;
+}
+
+textarea {
+  width: 40%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1.5px solid #fff;
+  border-radius: 0.8rem;
+  resize: none;
+  margin-bottom: 0.5rem;
+}
+
+textarea:focus {
+  border-color: #666666;
+  box-shadow: 0 0 5px #fff;
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: rgb(29, 158, 202);
+  padding: 0.4rem 1rem;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-left: 30rem;
+  width: 45%;
+  height: 3rem;
+  font-size: 1.5rem;
+  color:#fff;
+}
+
+button:hover {
+  background-color: rgb(22, 147, 189);
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: rgb(9, 111, 145);
+  transform: scale(1.15);
+}
+
+button:disabled {
+  background-color: blue;
+  cursor: not-allowed;
+}
+
+.descricao{
+  display: flex;
+  justify-content: center;
+}
+
+

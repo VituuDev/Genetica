@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="agua.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <div class="nav">
+        <h1 class="h1-left">BioCode</h1>
+        <div>
+          <ul class="nav-center">
+            <li>
+              <a href="#section1" onclick="showAnchorText">Funcionalidades</a>
+            </li>
+            <li><a href="#section2" onclick="showAnchorText">Objetivos</a></li>
+            <li>
+              <a href="#section3" onclick="showAnchorText">Agradecimentos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="nav-right">
+            <li><a href="/inicial/home_gen.html">Voltar</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="conteudo">
+      <div class="introducao">
+        <img
+          src="/agua/img-agua/Algumas-funcoes-da-agua-no-corpo-humano-scaled-removebg-preview.png"
+          alt=""
+        />
+        <div>
+          <h2>Introdução</h2>
+          <p>
+            Substância essencial para manutenção da vida, a água possui uma
+            importante função no corpo humano. Maior parte constituinte de uma
+            célula, consequentemente a maior em abundância no corpo humano. Sua
+            quantidade varia de espécie para espécie, mas é importante frizar
+            que em uma pessoa, a maior quantidade de água está na fase de
+            gestação do bebê. Quanto mais "velha" a célula menor sua capacidade
+            de suportar água. <br />
+            <br />
+            Na célula humana, seu volume varia de acordo com o nível de
+            atividade da célula. Quanto mais a célula trabalha, mais água ela é
+            capaz de reter. Podemos usar os adipócitos (armazenam gordura)
+            possuem 20% de água, células musculares com 65% e a célula que mais
+            trabalha os neurônios, com 75%.
+          </p>
+        </div>
+      </div>
+      <div class="ligacoes">
+          <img src="./img-agua/ligacao-de-hidrogenio-agua-removebg-preview.png" alt="">
+          <div>
+          <h2>Ligações de hidrogênio</h2>
+          <p>Ligações de hidrogênio, são as ligações de interações das moléculas, o encadeamento delas, para que a água seja tão unida ela precisa dessa forma de encadeamento, pois assim possibilita que as moléculas de água fiquem unidas. A ligação acontece pelo átomo negativo da molécula Oxigênio, com o átomo positivo hidrogênio, e assim successivamente, formando um encadeamento de moleculas de água.
+          </p>
+        </div>
+
+    </div>
+    </div>
+
+    <script>
+      function scrollToSection(event) {
+        event.preventDefault(); // Impede a navegação padrão do link
+
+        const targetId = event.target.getAttribute("href").substring(1); // Obtém o ID da seção
+        const targetElement = document.getElementById(targetId); // Seleciona o elemento
+
+        // Rola suavemente até a seção
+        targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    </script>
+  </body>
+</html>
