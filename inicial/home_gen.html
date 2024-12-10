@@ -85,12 +85,12 @@
     </div>
 
     <div id="rodape">
-      <form onsubmit="return validateTextarea()">
+      <form id="form">
         <div class="descricao">
         <label for="description">Descreva sua experiência:</label>
-        <textarea name="description" id="description" placeholder="Digite sua experiência" required minlength="10" maxlength="60"></textarea>
+        <textarea name="description" id="description" placeholder="Digite sua experiência" required minlength="10" maxlength="55"></textarea>
       </div>
-        <small id="error-message"></small>
+        <p id="error-message"></p>
         <br>
         <button class="botao" type="submit">Enviar</button>
       </form>

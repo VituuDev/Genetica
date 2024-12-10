@@ -126,13 +126,13 @@ h2 {
 
 form {
   margin-top: 2rem;
-  background-color: rgb(34, 173, 219);
+  background-color: rgb(54, 178, 220);
   border: 1px solid rgb(22, 147, 189);
   border-radius: 8px;
   padding: 1rem;
   width: 80%;
   box-shadow: 0 0.2rem 0.5rem #666666;
-  margin-left: 5rem;
+  margin-left: 9rem;
 }
 
 label {
@@ -191,6 +191,12 @@ button:disabled {
 .descricao{
   display: flex;
   justify-content: center;
+}
+
+{
+  display: none;
+  position: fixed;
+  background-color: rgb(22, 147, 189, 0.5) ;
 }
 
 

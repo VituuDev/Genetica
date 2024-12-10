@@ -14,11 +14,11 @@
       <img src="./imagens-login/file.png" alt="" />
     </div>
     <div id="form" class="form">
-      <form action="#">
+      <form onsubmit="validate()">
       <div class="header">
         <h1>Cadastre-se</h1>
           <button id="submitButton" class="buttonheader" type="submit">
-            <a href="/inicial/home_gen.html" aria-disa">Entrar</a>
+            <a href="/inicial/home_gen.html">Entrar</a>
           </button>
         </div>
         <div class="input-group">
@@ -27,6 +27,7 @@
               <label for="firstname">Primeiro nome</label>
               <input id="n" type="text" class="input" placeholder="Primeiro nome" onclick="name()"
                 title="Insira seu primeiro nome."/>
+                <small id="error-message"></small>
 
 
             </div>
@@ -34,7 +35,7 @@
               <label for="lastname">Sobrenome</label>
               <input id="lastname" type="text" class="input" placeholder="Sobrenome" onclick="botao()"
                 title="Insira seu sobrenome." />
-
+                <small id="error-message"></small>
 
             </div>
           </div>
@@ -42,16 +43,16 @@
               <div class="alinhar">
                 <label for="email">E-mail</label>
                 <input id="email" type="email" class="input" placeholder="Digite seu e-mail" onclick="botao()" />
+                <small id="error-message"></small>
               </div>
                 <div class="alinhar">
                   <label for="senha">Senha</label>
                   <input id="password" type="password" class="input" placeholder="Digite sua senha"
                     onclick="botao()" />
-             </div>
+                    <small id="error-message"></small>
+                  </div>
             </div>
           </div>
-
-
                 <div class="linha3">
                   <div class="genderT">
                     <h4>Gênero</h4>
