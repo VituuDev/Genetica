@@ -14,11 +14,11 @@
       <img src="./imagens-login/file.png" alt="" />
     </div>
     <div id="form" class="form">
-      <form id="registrationForm" onsubmit="return validate()">
+      <form id="registrationForm" onsubmit="return validate(event)">
       <div class="header">
         <h1>Cadastre-se</h1>
           <button id="submitButton" class="buttonheader" type="submit">
-            Entrar
+            Cadastrar
           </button>
         </div>
         <div class="input-group">
@@ -76,6 +76,8 @@
                     </div>
                   </div>
                 </div>
+                <!-- Novo botão desabilitado, até a validação do formulário acontecer -->
+<button id="newButton" disabled onclick="redirectToNewPage()"><p>Entrar</p></button>
               </div>
       </form>
     </div>

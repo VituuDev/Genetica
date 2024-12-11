@@ -1,5 +1,5 @@
 function validateTextarea(event){
-    
+     
     const textarea = document.getElementById('description');
     const errorMessage = document.getElementById('error-message');
     const value = textarea.value.trim();
