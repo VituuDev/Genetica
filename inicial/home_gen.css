@@ -122,6 +122,9 @@ h2 {
 
 #error-message {
   color: red;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1rem;
 }
 
 form {

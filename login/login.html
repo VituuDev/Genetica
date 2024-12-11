@@ -14,42 +14,42 @@
       <img src="./imagens-login/file.png" alt="" />
     </div>
     <div id="form" class="form">
-      <form onsubmit="validate()">
+      <form id="registrationForm" onsubmit="return validate()">
       <div class="header">
         <h1>Cadastre-se</h1>
           <button id="submitButton" class="buttonheader" type="submit">
-            <a href="/inicial/home_gen.html">Entrar</a>
+            Entrar
           </button>
         </div>
         <div class="input-group">
           <div class="linha1">
             <div class="alinhar">
               <label for="firstname">Primeiro nome</label>
-              <input id="n" type="text" class="input" placeholder="Primeiro nome" onclick="name()"
+              <input id="n" type="text" class="input" placeholder="Primeiro nome"
                 title="Insira seu primeiro nome."/>
-                <small id="error-message"></small>
+                <small id="error-n"></small>
 
 
             </div>
             <div class="alinhar">
               <label for="lastname">Sobrenome</label>
-              <input id="lastname" type="text" class="input" placeholder="Sobrenome" onclick="botao()"
+              <input id="lastname" type="text" class="input" placeholder="Sobrenome"
                 title="Insira seu sobrenome." />
-                <small id="error-message"></small>
+                <small id="error-lastname"></small>
 
             </div>
           </div>
             <div class="linha2">
               <div class="alinhar">
                 <label for="email">E-mail</label>
-                <input id="email" type="email" class="input" placeholder="Digite seu e-mail" onclick="botao()" />
-                <small id="error-message"></small>
+                <input id="email" type="email" class="input" placeholder="Digite seu e-mail"/>
+                <small id="error-email"></small>
               </div>
                 <div class="alinhar">
                   <label for="senha">Senha</label>
                   <input id="password" type="password" class="input" placeholder="Digite sua senha"
-                    onclick="botao()" />
-                    <small id="error-message"></small>
+                   />
+                    <small id="error-password"></small>
                   </div>
             </div>
           </div>
@@ -59,19 +59,19 @@
                   </div>
                   <div class="gender">
                     <div class="botao">
-                      <input type="radio" name="options-base" id="option5" />
+                      <input type="radio" name="gender" id="option5" />
                       <label class="btn" for="option5">Masculino</label>
                     </div>
                     <div class="botao">
-                      <input type="radio" name="options-base" id="option6" />
+                      <input type="radio" name="gender" id="option6" />
                       <label class="btn" for="option6">Feminino</label>
                     </div>
                     <div class="botao">
-                      <input type="radio" name="options-base" id="option7" />
+                      <input type="radio" name="gender" id="option7" />
                       <label class="btn" for="option7">Outros</label>
                     </div>
                     <div class="botao">
-                      <input type="radio" name="options-base" id="option8" />
+                      <input type="radio" name="gender" id="option8" />
                       <label class="btn" for="option8">Prefiro não dizer</label>
                     </div>
                   </div>
