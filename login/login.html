@@ -8,19 +8,24 @@
   <link rel="stylesheet" href="login.css" />
 </head>
 
+<!--O formulário foi pensado com divisao dupla, dentro de um conteiner-->
 <body>
+  <!--criação de div para conter a img e form-->
   <div class="container">
     <div class="form-image">
       <img src="./imagens-login/file.png" alt="" />
     </div>
+    <!--criação do header do form-->
     <div id="form" class="form">
       <form id="registrationForm" onsubmit="return validate(event)">
       <div class="header">
         <h1>Cadastre-se</h1>
+        <!--O seguinte botao serve para conferir a validação dos inputs-->
           <button id="submitButton" class="buttonheader" type="submit">
             Cadastrar
           </button>
         </div>
+        <!--primeiro input é o do nome-->
         <div class="input-group">
           <div class="linha1">
             <div class="alinhar">
@@ -29,7 +34,7 @@
                 title="Insira seu primeiro nome."/>
                 <small id="error-n"></small>
 
-
+<!--seguido do input de sobrenome, todos do tipo texto-->
             </div>
             <div class="alinhar">
               <label for="lastname">Sobrenome</label>
@@ -41,11 +46,13 @@
           </div>
             <div class="linha2">
               <div class="alinhar">
+                <!--input do email-->
                 <label for="email">E-mail</label>
                 <input id="email" type="email" class="input" placeholder="Digite seu e-mail"/>
                 <small id="error-email"></small>
               </div>
                 <div class="alinhar">
+                  <!--input da senha-->
                   <label for="senha">Senha</label>
                   <input id="password" type="password" class="input" placeholder="Digite sua senha"
                    />
@@ -53,6 +60,7 @@
                   </div>
             </div>
           </div>
+          <!--titulo + grupo de inputs do tipo radio, para optação do genero do usuario-->
                 <div class="linha3">
                   <div class="genderT">
                     <h4>Gênero</h4>
@@ -76,7 +84,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- Novo botão desabilitado, até a validação do formulário acontecer -->
+                <!-- botão desabilitado, até a validação do formulário acontecer, depois de validado o botao é habilitado e permite o usuário entrar na outra página -->
 <button id="newButton" disabled onclick="redirectToNewPage()"><p>Entrar</p></button>
               </div>
       </form>
